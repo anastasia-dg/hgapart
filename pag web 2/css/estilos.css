@@ -1,0 +1,179 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+.contenedor-inicio{
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(147, 165, 207, 0.5) 0%, rgba(228, 239, 233, 0.5) 100%), url(../imagenes/parque4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+}
+
+.titulo{
+    color: white;
+}
+
+
+header {
+    height: 5vw;
+}
+.menu-navegacion{
+
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #ccc9c9 0%, #cecccc 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+}
+.spread{
+    transform: translate(0);
+}
+h1{
+    text-align: center;
+    color: cadetblue;
+    margin-bottom: 40px;
+    font-size: 40px;   
+}
+h2{
+    text-align:center;
+    color: darksalmon;
+    margin-bottom:40px ;
+    font-size:40px ;
+}
+h3{
+    text-align:center;
+    color: darkred;
+    margin-bottom:40px ;
+    font-size:30px ;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-servicio img{
+    width: 40%;
+}
+.texto{
+    width: 45%;
+}
+.gallery{
+    background-color:beige; 
+}
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img-galeria{
+    object-fit: cover;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+.contenedor-informacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+.contenedor-uno{
+    width: 40%;
+}
+.contenedor-lista{
+    width: 45%;
+}
+.contenedor-habitaciones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color:rgb(217, 207, 230);
+    padding-bottom: 0.1px;
+    border: 1px solid white;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contact-us{
+    width: 40%;
+    color: white;
+}
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand+p{
+font-weight: 500;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius:50%;
+    text-align: center;
+    color: white;
+}
+.social-media-icon:hover{
+    background: white;
+    color:rgb(217, 207, 230);
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+
+@media (min-width:100px) {
+    .img-galeria{
+      height: 350px;
+      width: 350px;
+    }
+}
